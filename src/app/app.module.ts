@@ -7,6 +7,12 @@ import { NavbarComponent } from './components/navbar/navbar.component'
 import { FooterComponent } from './components/footer/footer.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { CardComponent } from './components/card/card.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NewsComponent } from './pages/news/news.component';
+import { MediakitComponent } from './pages/mediakit/mediakit.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { CardComponent } from './components/card/card.component';
     NavbarComponent,
     FooterComponent,
     HeroComponent,
-    CardComponent
+    CardComponent,
+    HomeComponent,
+    NewsComponent,
+    MediakitComponent,
+    PortfolioComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
